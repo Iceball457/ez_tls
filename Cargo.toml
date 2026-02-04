@@ -2,6 +2,11 @@
 name = "ez_tls"
 version = "0.1.0"
 edition = "2024"
+description = "Super simple Tls api wrapper around rustls"
+categories = ["network-programming"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Iceball457/ez_tls"
+readme = "README.md"
 
 [dependencies]
 rustls = "0.23.36"
