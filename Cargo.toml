@@ -1,0 +1,14 @@
+[package]
+name = "ez_tls"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rustls = "0.23.36"
+webpki-roots = "1.0.6"
+
+[lints.rust]
+missing_docs = "warn"
+
+[lints.clippy]
+pedantic = "warn"
